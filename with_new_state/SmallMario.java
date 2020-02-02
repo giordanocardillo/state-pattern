@@ -1,4 +1,4 @@
-package with_state;
+package with_new_state;
 
 public class SmallMario implements IState {
   private Mario mario;
@@ -21,4 +21,10 @@ public class SmallMario implements IState {
   public void breakWall() {
     System.out.println("Can't break wall!");
   }
+
+  public void gotFireFlower() {
+    System.out.println("Got Fire flower!");
+    mario.setState(mario.getState("fireMario"));
+  }
 }
+

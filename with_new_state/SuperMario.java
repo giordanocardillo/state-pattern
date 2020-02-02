@@ -1,24 +1,27 @@
-package with_state;
+package with_new_state;
 
-public class SmallMario implements IState {
+public class SuperMario implements IState {
   private Mario mario;
 
-  public SmallMario(Mario mario) {
+  public SuperMario(Mario mario) {
     this.mario = mario;
   }
 
   public void gotMushroom() {
     System.out.println("Got Mushroom!");
-    mario.setState(mario.getState("superMario"));
   }
 
   public void metMonster() {
     System.out.println("Met Monster!");
     mario.setState(mario.getState("smallMario"));
-    mario.lostLife();
   }
 
   public void breakWall() {
-    System.out.println("Can't break wall!");
+    System.out.println("Wall broken!");
+  }
+
+  public void gotFireFlower() {
+    System.out.println("Got Fire flower!");
+    mario.setState(mario.getState("fireMario"));
   }
 }

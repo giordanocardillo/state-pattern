@@ -1,4 +1,4 @@
-package with_state;
+package with_new_state;
 
 public interface IState {
   void gotMushroom();
@@ -6,4 +6,7 @@ public interface IState {
   void breakWall();
 
   void metMonster();
+
+  void gotFireFlower();
 };
+
