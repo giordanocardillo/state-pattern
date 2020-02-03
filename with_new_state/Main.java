@@ -8,39 +8,33 @@ public class Main {
     System.out.println("\n\n");
     System.out.println(mario);
 
-    System.out.println("Encountered a wall...");
+    System.out.println("Encountered a Wall!");
     mario.breakWall();
     System.out.println(mario);
 
-    System.out.println("Encountered a mushroom...");
     mario.gotMushroom();
     System.out.println(mario);
 
-    System.out.println("Encountered a wall...");
+    System.out.println("Encountered a Wall!");
     mario.breakWall();
     System.out.println(mario);
 
-    System.out.println("Encountered an enemy...");
     mario.metMonster();
     System.out.println(mario);
 
-    System.out.println("Encountered an enemy...");
     mario.metMonster();
     System.out.println(mario);
 
-    System.out.println("Encountered a FireFlower...");
     mario.gotFireFlower();
     System.out.println(mario);
 
-    System.out.println("Encountered an enemy...");
     mario.metMonster();
     System.out.println(mario);
 
-    System.out.println("Encountered a wall...");
-    mario.breakWall();
+    System.out.println("Encountered a Wall!");
     System.out.println(mario);
+    mario.breakWall();
 
-    System.out.println("Encountered an enemy...");
     mario.metMonster();
     System.out.println(mario);
 
