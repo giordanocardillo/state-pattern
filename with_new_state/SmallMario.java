@@ -14,7 +14,6 @@ public class SmallMario implements IState {
 
   public void metMonster() {
     System.out.println("Met Monster!");
-    mario.setState(mario.getState("smallMario"));
     mario.lostLife();
   }
 
