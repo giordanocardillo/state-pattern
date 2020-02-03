@@ -26,7 +26,7 @@ public class Mario {
 
   public void metMonster() {
     System.out.println("Met monster!");
-    if (state == 1) {
+    if (state == 0) {
       lifeCount -= 1;
     } else {
       state = 0;
