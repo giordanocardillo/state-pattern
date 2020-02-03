@@ -24,4 +24,9 @@ public class FireMario implements IState {
     System.out.println("Got Fire flower!");
   }
 
+  @Override
+  public String toString() {
+    return "FireMario";
+  }
+
 }

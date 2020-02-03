@@ -25,5 +25,10 @@ public class SmallMario implements IState {
     System.out.println("Got Fire flower!");
     mario.setState(mario.getState("fireMario"));
   }
+
+  @Override
+  public String toString(){
+    return "SmallMario";
+  }
 }
 

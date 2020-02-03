@@ -56,4 +56,9 @@ public class Mario {
     lifeCount -= 1;
   }
 
+  @Override
+  public String toString() {
+    return "Life: " + this.lifeCount + " - State: " + this.state + "\n";
+  }
+
 }
